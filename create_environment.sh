@@ -40,6 +40,8 @@ Chinemerem, Shell Navigation, not submitted
 Chiagoziem, Git, submitted
 Divine, Shell Navigation, not submitted
 Anissa, Shell Basics, submitted
+Twariq,Python Introduction, not submitted
+Ivan Muvunnyi, SDL, not submitted
 EOL
 
 echo "writing in remainder.sh"
@@ -87,7 +89,7 @@ function check_submissions {
         status=\$(echo "\$status" | xargs)
 
         # Check if assignment matches and status is 'not submitted'
-        if [[ "\$assignment" == "\$ASSIGNMENT" && "\$status" == "not submitted" ]]; then
+        if [[  "\$status" == "not submitted" ]]; then
             echo "Reminder: \$student has not submitted the \$assignment assignment!"
         fi
     done < <(tail -n +2 "\$submissions_file") # Skip the header

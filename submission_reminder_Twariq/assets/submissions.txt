@@ -1,0 +1,7 @@
+student, assignment, submission_status
+Chinemerem, Shell Navigation, not submitted
+Chiagoziem, Git, submitted
+Divine, Shell Navigation, not submitted
+Anissa, Shell Basics, submitted
+Twariq,Python Introduction, not submitted
+Ivan Muvunnyi, SDL, not submitted
